@@ -1,0 +1,28 @@
+HW1
+1. Use B_PIX to write a program to generate
+    (a)  upside-down lena.im
+    (b)  right-side-left lena.im
+    (c)  diagonally mirrored lena.im
+2. Use Photoshop to
+    (a) rotate lena.im 45 degrees clockwise
+    (b) shrink lena.im in half
+    (c) binarize lena.im at 128 to get a binary image
+
+Basic Image Manipulation
+    You may use any programming language of your choice to 
+        implement the functions required in assignment #1, 
+        provided that you do not use any library calls except 
+        for basic image IO (e.g. OpenCV).
+
+    For part 2, you can use any image processing software. 
+    In your report, you must specify which software you used 
+        and the steps you took to obtain the required results.
+    You must use the image 'lena' as your benchmark.
+    Due date: 2018/09/25 2:20pm
+
+    Grading policy
+    Failing to provide a report will reduce your grade by 1~2 levels.
+    Using restricted functions within your program (unless specified, as in part 2) will result in a failure of your work.
+
+    Hint: You can use any program language to implement homework. However don't just call libraries, if just call libraries you will get zero point.
+                                                                    
