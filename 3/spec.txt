@@ -1,0 +1,13 @@
+HW3
+histogram equalization histogram linearization
+pixel transformation
+Write a program to do histogram equalization
+
+Histogram Equalization
+    Detail description of equalization can be found at Reference [2] pp. 173~180.
+    Due date: 2018/10/09 2:20pm
+
+    Grading policy
+        Please include the histogram of the final image. (As in the previous assignment).
+        Please read "Regulation #3".
+        Please do hardcore programming.
