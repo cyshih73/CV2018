@@ -53,18 +53,18 @@ def main():
 
   # Binarize first
   img_binary = binary(img)
-  cv2.imwrite("hw3_binary.bmp", img_binary*255)
+  cv2.imwrite("hw4_binary.bmp", img_binary*255)
 
   # Binary morphological dilation
-  cv2.imwrite("hw3_dilation.bmp", dilation(img_binary)*255)
+  cv2.imwrite("hw4_dilation.bmp", dilation(img_binary)*255)
   # Binary morphological erosion
-  cv2.imwrite("hw3_erosion.bmp", erosion(img_binary)*255)
+  cv2.imwrite("hw4_erosion.bmp", erosion(img_binary)*255)
   # Opening
-  cv2.imwrite("hw3_opening.bmp", dilation(erosion(img_binary))*255)
+  cv2.imwrite("hw4_opening.bmp", dilation(erosion(img_binary))*255)
   # Closing
-  cv2.imwrite("hw3_closing.bmp", erosion(dilation(img_binary))*255)
+  cv2.imwrite("hw4_closing.bmp", erosion(dilation(img_binary))*255)
   # Hit-and-miss transform 
-  cv2.imwrite("hw3_hit-and-miss.bmp", hit_and_miss(img_binary)*255)
+  cv2.imwrite("hw4_hit-and-miss.bmp", hit_and_miss(img_binary)*255)
 
 if __name__ == '__main__':
   if len(sys.argv) != 2:
