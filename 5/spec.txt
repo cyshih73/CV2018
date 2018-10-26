@@ -1,0 +1,9 @@
+Write programs which do gray-scale morphological dilation, erosion, opening, and closing on a gray-scale image (Due Oct. 30)
+
+Mathematical Morphology - Gray Scaled Morphology
+
+	Please use the octonal 3-5-5-5-3 kernel with value = 0 (which is actually taking the local maxima or local minima respectively).
+
+	Due date: 2018/10/30 2:20pm
+
+	4 images should be included in your report: Dilation, Erosion, Opening and Closing.
