@@ -1,0 +1,15 @@
+Yokoi Connectivity Number (HW) due Nov. 13
+<Hint>
+Binarize the benchmark image Lena as in HW2 by 128
+using 8x8 blocks as a unit,  take the topmost-left pixel as the down-sampled data, Down-sample Lena from 512x512 to 64x64
+Count the Yokoi connectivity number
+Result of this assignment is a 64x64 matrix. Please align the matrix within 1 single A4 page (using 4-connected).
+
+
+Yokoi Connectivity Number
+
+Downsampling Lena from 512x512 to 64x64: Binarize the benchmark image lena as in HW2, then using 8x8 blocks as a unit, take the topmost-left pixel as the downsampled data.
+
+Result of this assignment is a 64x64 matrix. Please align the matrix within 1 single A4 page (using 4-connected).
+
+Due date: 2018/11/13 2:20pm
