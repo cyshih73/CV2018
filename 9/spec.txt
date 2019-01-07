@@ -1,0 +1,26 @@
+Write programs to generate the following gradient magnitude images and choose proper thresholds to get the binary edge images:
+ Roberts operator
+ Prewitt edge detector
+ Sobel edge detector
+ Frei and Chen gradient operator
+ Kirsch compass operator
+ Robinson compass operator
+ Nevatia-Babu 5X5 operator
+
+
+	
+General Edge Detection
+
+You are to implement Robert, Prewitt, Sobel, Frei & Chen, Kirsch, Robinson, and Nevatia-Babu's edge detectors.
+
+Threshold Values listed below are for reference:
+(僅供參考，同學可自己找出 Edge Image 品質最佳的門檻值 threshold value)
+
+
+Robert's Operator: 12
+Prewitt's Edge Detector: 24
+Sobel's Edge Detector: 38
+Frei and Chen's Gradient Operator: 30
+Kirsch's Compass Operator: 135
+Robinson's Compass Operator: 43
+Nevatia-Babu 5x5 Operator: 12500
