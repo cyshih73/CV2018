@@ -1,0 +1,17 @@
+Thinning Operator(HW) due Nov. 20
+Composition of three operator
+6.2.4 mark-interior/border-pixel operator
+6.2.7 pair relationship operator
+6.2.6 marked-pixel connected shrink operator
+
+
+
+Thinning
+
+You may choose to do a 64x64 downsampled (from last assignment) image or a original 512x512 image.
+
+The algorithm listed in the textbook is erroneous, please be aware of this.
+
+Sample result of a 512x512 image thinned (You are to turn in a 64x64 downsampled one).
+
+Due date: 2018/11/20 2:20pm
