@@ -1,0 +1,21 @@
+Project due Nov. 27
+Write the following programs
+Generate additive white Gaussian noise 
+Generate salt-and-pepper noise 
+Run box filter (3X3, 5X5) on all noisy images
+Run median filter (3X3, 5X5) on all noisy images
+Run opening followed by closing and closing followed by opening
+
+
+
+Noise Removal
+
+You must include your noisy image be for processing and after processing in your report.
+
+You must calculate the signal-to-ratio (SNR) for each instance and write them in your report. Use this formula if any conflicts occur.
+
+You are to generate gaussian noise with amplitude of 10 and 30, salt-and-pepper noise with probability 0.1 and 0.05. You must use the 3x3, 5x5 box filter and median filter, both opening-then-closing and closing-then opening filter (using the octogonal 3-5-5-5-3 kernel, value = 0) on those images. You will produce 24 images (preprocessed and postprocessed) and 4 noise figures.
+
+Here is a simple pseudo normal random number generator with mean 0 and variance 1. If your programming language provides an API for pseudo normal random numbers (i.e., RandG in BCB6(in math.hpp) and randn (?) in matlab, you may use it as an exception to hard core programming.
+
+Due date: 2018/11/27 2:20pm
