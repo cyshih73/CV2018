@@ -1,0 +1,27 @@
+Write the following programs to detect edge:
+   Zero-crossing on the following four types of images to get edge images (choose proper thresholds), p. 349 
+   Laplacian(2±i¹Ï)
+   minimum-variance Laplacian
+   Laplacian of Gaussian
+   Difference of Gaussian, (use tk to generate D.O.G.) 
+     dog (inhibitory          , excitatory          , kernel size=11)
+
+
+
+	
+Zero Crossing Edge Detection
+
+You are to implement 2 Laplacian Mask, Minimum Variance Laplacian, Laplacian of Gaussian, and Difference of Gaussian(inhibitory sigma=1, excitatory sigma=3, kernel size 11x11 [1][1])
+Please list the kernels and the thresholds (for zero crossing) you used.
+You may generate the Difference of Gaussian kernel in anyway you like. This formula is actually Gaussian(0,1) - Gaussian(0,3).
+
+Threshold Values listed below are for reference:
+	(僅供參考，同學可自己找出 Edge Image 品質最佳的門檻值threshold value)
+	Laplace Mask1 (0, 1, 0, 1, -4, 1, 0, 1, 0): 15
+	Laplace Mask2 (1, 1, 1, 1, -8, 1, 1, 1, 1)
+	Minimum variance Laplacian: 20
+	Laplace of Gaussian: 3000
+	Difference of Gaussian: 1
+
+Due date: 2018/12/11 2:20pm
+
